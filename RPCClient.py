@@ -107,7 +107,7 @@ class RPCClient(object):
 
 
 if __name__ == '__main__':
-    rpc  = RPCClient("127.0.0.1","antiy_redis")
+    rpc  = RPCClient("127.0.0.1","yunzujia")
     result = rpc.async_call('add',1,12)
     print result
     print result
