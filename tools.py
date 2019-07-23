@@ -11,4 +11,4 @@ def add(a, b):
     time.sleep(3)
     return {"result":a+b}
 
-add(1,2)
+print add(1,2)
