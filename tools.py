@@ -10,3 +10,5 @@ def test(a, b, c, d="123", e="456"):
 def add(a, b):
     time.sleep(3)
     return {"result":a+b}
+
+add(1,2)
